@@ -10,3 +10,8 @@ for(const car of cars) {
 }
 
 console.log("Desestruturação")
+for(const car of cars)
+{
+    const{modelo, preco} = carro
+    console.log(`${modelo}, ${preco}`)
+}
