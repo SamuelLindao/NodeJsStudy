@@ -1,4 +1,4 @@
-const cidade = "Cidade"
+let cidade = "Cidade"
 
 for(const chars of cidade)
 {
@@ -10,3 +10,7 @@ for(const chars of cidade)
     console.log(`${chars} - Last element`)
 
 }
+console.log(`Char at 2 == ${cidade.charAt(2)}`)
+
+cidade = cidade.replace("dad", "samuel")
+console.log(cidade)
